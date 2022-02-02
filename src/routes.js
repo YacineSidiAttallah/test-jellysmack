@@ -3,10 +3,10 @@ import CharacterDetails from './Views/CharacterDetails.vue'
 
 export default [
     {
-        path: '/characters',
+        path: '/',
         component: Characters,
         name: 'characters',
-        alias:'/'
+        alias:'/characters'
     }, {
         path: '/characters/:id',
         component: CharacterDetails,
