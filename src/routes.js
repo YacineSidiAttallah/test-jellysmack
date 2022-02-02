@@ -5,7 +5,8 @@ export default [
     {
         path: '/characters',
         component: Characters,
-        name: 'characters'
+        name: 'characters',
+        alias:'/'
     }, {
         path: '/characters/:id',
         component: CharacterDetails,
