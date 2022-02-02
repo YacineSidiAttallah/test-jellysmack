@@ -1,12 +1,7 @@
 import Characters from './Views/Characters'
 import CharacterDetails from './Views/CharacterDetails.vue'
 
-export default [{
-        path: '/',
-        redirect: {
-            name: 'characters'
-        }
-    },
+export default [
     {
         path: '/characters',
         component: Characters,
